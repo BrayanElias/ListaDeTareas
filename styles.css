@@ -52,13 +52,20 @@ form {
 .inputForm {
   border: none;
   padding: 10px;
-  border: 1px solid #eee;
+  /* border: 1px solid black; */
+  background-image: linear-gradient(
+    109.6deg,
+    rgba(62, 161, 219, 1) 11.2%,
+    rgba(93, 52, 236, 1) 100.2%
+  );
   outline: none;
   width: 65%;
+  border-radius: 5px;
 }
 
 .inputForm::placeholder {
   padding: 0px;
+  color: black;
 }
 
 .btnCreate {
